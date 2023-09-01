@@ -1,0 +1,38 @@
+/* for tablet */
+@media screen and (max-width: 1280px) {
+    header {
+        padding: 0 50px;
+      }
+   .nav_bar{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+   }
+   .logo_name {
+    font-size: 30px;
+  }
+  .logo img {
+    width: 60px;
+  }
+  .social_nav {
+    padding: 5px 10px;
+    gap: 10px;
+  }
+  .social_nav .youtube, .tiktok{
+    font-size: 20px;
+}
+  }
+
+/* for mobile screen */
+@media screen and (max-width: 767px) {
+    header {
+        padding: 0 10px;
+      }
+    .nav_item{
+        flex-direction: column;
+        gap: 10px;
+       }
+       .nav_item li {
+        font-size: 15px;
+      }
+  }
