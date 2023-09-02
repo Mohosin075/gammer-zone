@@ -194,3 +194,55 @@ header {
 .gammer-desc{
   margin: 20px 0;
 }
+
+
+/* online games */
+.online-games{
+  text-align: center;
+  margin: 100px 150px;
+}
+.online-games-cards{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.gamges-card-img{
+  position: relative;
+}
+
+.gamges-card-img img{
+  width: 100%;
+  height: 100%;
+}
+.card-hover{
+  /* background-color: red;
+   */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+  border-radius: 18px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.gamges-card-img:hover .card-hover{
+  display: flex;
+}
+.card-hover h2{
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-top: 10px;
+}
+.watch-icon{
+  font-size: 40px;
+  color: white;
+}
+

@@ -40,6 +40,14 @@
   .our-purpose {
     font-size: 20px;
   }
+
+  /* online games */
+.online-games{
+  margin: 50px 50px;
+}
+.online-games-cards{
+  flex-wrap: wrap;
+}
 }
 
 /* for mobile screen */
@@ -87,5 +95,8 @@
   .section-description {
     font-size: 14px;
     line-height: 20px;
+  }
+  .our-purpose-quat {
+    font-size: 20px;
   }
 }
